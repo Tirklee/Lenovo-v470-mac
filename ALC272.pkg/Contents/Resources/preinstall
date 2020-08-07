@@ -1,0 +1,21 @@
+#!/bin/sh
+
+if [ -e "$3/System/Library/Extensions/AppleHDA.kext" ]
+then
+mv "$3/System/Library/Extensions/AppleHDA.kext" "$3/System/Library/Extensions/AppleHDA.kext.orig"
+fi
+if [ -e "$3/System/Library/Extensions/HDAEnabler.kext" ]
+then
+mv "$3/System/Library/Extensions/HDAEnabler.kext" "$3/System/Library/Extensions/HDAEnabler.kext.orig"
+fi
+rm -rf "$3/System/Library/Extensions/AppleHDA.kext"
+rm -rf "$3/System/Library/Extensions/AppleHDA.kext.orig"
+rm -rf "$3/System/Library/Extensions/HDAEnabler.kext"
+rm -rf "$3/System/Library/Extensions/HDAEnabler.kext.orig"
+
+
+
+
+
+
+
