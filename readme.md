@@ -1,5 +1,7 @@
 **Lenovo v470 Hackintosh**
 
+macOS10.12.6
+
 This is all of file for LenovoV470 - core i5 2430- HD3000 - NVIDIA GT520M
 
 **Hardware**~~~~
